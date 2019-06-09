@@ -67,5 +67,46 @@ $(function(){
 
 </ul>
 </confmenu></header>
-<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='Test.html'>Test</a><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='操作影片.html'>操作影片</a><ul><li><a href='Week1.html'>Week1</a><li><a href='Week2-ShareX操作.html'>Week2-ShareX操作</a><li><a href='Week2-更改倉儲分支(Branche).html'>Week2-更改倉儲分支(Branche)</a><li><a href='Week3.html'>Week3</a><li><a href='Week4.html'>Week4</a><ul><li><a href='revel.html'>revel</a><li><a href='blog.html'>blog</a></li></ul><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a><li><a href='Week7.html'>Week7</a><li><a href='Week8.html'>Week8</a><li><a href='Week18.html'>Week18</a></li></ul><li><a href='專題.html'>專題</a><ul><li><a href='Python 語法.html'>Python 語法</a><li><a href='選號器.html'>選號器</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section> <a href='簡介.html'>Next</a> >> 簡介<br /><h1>Test</h1>
-<p><a href="https://www.youtube.com/"><img alt="" height="168" src="./../images/images.png" width="300"/></a></p><br /> <a href='簡介.html'>Next</a> >> 簡介</section></div></body></html>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='Test.html'>Test</a><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='操作影片.html'>操作影片</a><ul><li><a href='Week1.html'>Week1</a><li><a href='Week2-ShareX操作.html'>Week2-ShareX操作</a><li><a href='Week2-更改倉儲分支(Branche).html'>Week2-更改倉儲分支(Branche)</a><li><a href='Week3.html'>Week3</a><li><a href='Week4.html'>Week4</a><ul><li><a href='revel.html'>revel</a><li><a href='blog.html'>blog</a></li></ul><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a><li><a href='Week7.html'>Week7</a><li><a href='Week8.html'>Week8</a><li><a href='Week18.html'>Week18</a></li></ul><li><a href='專題.html'>專題</a><ul><li><a href='Python 語法.html'>Python 語法</a><li><a href='選號器.html'>選號器</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>blog << <a href='blog.html'>Previous</a> <a href='Week6.html'>Next</a> >> Week6<br /><h1>Week5</h1>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 導入 Ex1 原始碼
+a = 0
+def my_print(n, input_str):
+    print("以下將重覆列印 '", input_str + "' " + str(n) + "次")
+    for i in range(n):
+        print(i, input_str)
+
+my_print(5, "Hello World!")
+the_str = "開始學習 Python"
+num = input("請輸入要列印的次數!")
+my_print(int(num), the_str)
+a = a + 1
+print("(" + str(a) + ")", "_" * 25)
+
+def myfun():
+    yield 1
+    yield 2
+    yield 3
+
+for i in myfun():
+    print(i)
+
+x = iter(myfun())
+y = list(myfun())
+
+a = a + 1
+print("(" + str(a) + ")", "_" * 25)
+print(x.__next__())
+print(x.__next__())
+print(x.__next__())
+print(y)</pre>
+<p>近端執行</p>
+<p>使用SciTE執行</p>
+<p><img alt="" height="371" src="./../images/Sc1_2018-11-03_14-30-30.png" width="692"/></p>
+<p>遠端執行</p>
+<p>進到 <a href="http://mde.tw/cp2018/content/Python%20%E6%95%99%E6%9D%90.html">python教材 </a>內執行</p>
+<p><img alt="" height="329" src="./../images/chrome_2018-11-03_14-31-29.png" width="699"/></p>
+<p>執行後網頁會跳出</p>
+<p><img alt="" height="241" src="./../images/chrome_2018-11-03_14-56-34.png" width="576"/></p>
+<p>練習影片</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ZiB8puPGum4" width="560"></iframe></p>
+<br />blog << <a href='blog.html'>Previous</a> <a href='Week6.html'>Next</a> >> Week6</section></div></body></html>
